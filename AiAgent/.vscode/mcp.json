@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "RoboticHand": {
+            "type": "stdio",
+            "command": "D:\\RcHand.Mcp.Stdio.Server.exe",
+            "args": [
+                "--port",
+                "COM8",
+            ]
+        }
+    }
+}
