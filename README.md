@@ -6,6 +6,7 @@
 |  |  |
 |----------|----------|
 |![sticker](https://github.com/user-attachments/assets/bd52ea4e-e909-44fa-bdb6-4eade8ce4578)  | ![image](https://github.com/user-attachments/assets/5d066625-2236-4097-a80f-08a6a75db5b9)|
+|Esp32/arduino| https://github.com/araxis/RcHand/blob/master/RcHand.Esp32/RcHand.Esp32.ino |
 
 
 ### 🔧 What it does
