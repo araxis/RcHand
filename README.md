@@ -1,6 +1,6 @@
 # RcHand - AI-Driven Robotic Hand Controller
 
-**RcHand** is a learning project that demonstrates how to control a robotic right hand using servo motors, ESP32, and USB.
+**RcHand** is a learning project that demonstrates how to control a robotic right hand using servo motors, ESP32, and AI.
  It integrates with [ModelContextProtocol (MCP)](https://www.anthropic.com/news/model-context-protocol) to allow AI-assisted command execution and gesture scripting.
 
 ### 🔧 What it does
