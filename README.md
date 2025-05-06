@@ -7,7 +7,7 @@
 ### 🔧 What it does
 
 - Controls 5 servos (thumb to little finger)
-- Accepts simple `id:angle;` command format with optional delays
+- Accepts simple `servoId:angle;` command format with optional delays
 - Communicates via USB Serial
 - Integrates with .NET using [MCP C# Sdk](https://github.com/modelcontextprotocol/csharp-sdk) for AI and scripting
 
