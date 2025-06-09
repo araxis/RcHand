@@ -1,19 +1,16 @@
-﻿using Microsoft.Extensions.Logging;
-using ModelContextProtocol.Server;
+﻿using ModelContextProtocol.Server;
 using RcHand.Core;
 using System.ComponentModel;
 
-namespace RcHand.Mcp.Stdio.Server;
+namespace RcHand.Mcp.Http.Server;
 [McpServerToolType]
 internal class RcHandTool
 {
     private readonly ISerialHandService _bluetoothService;
-    private readonly ILogger<RcHandTool> _logger;
 
-    public RcHandTool(ISerialHandService bluetoothService, ILogger<RcHandTool> logger)
+    public RcHandTool(ISerialHandService bluetoothService)
     {
         _bluetoothService = bluetoothService;
-        _logger = logger;
     }
 
     [McpServerTool, Description(
@@ -36,10 +33,10 @@ internal class RcHandTool
     [Description("Command string for setting servo angles and optional delays. Format: 'id:angle;...;9:delay;'")]
     string command)
     {
-        _logger.LogInformation("Setting hand state with command:{command}", command);
         return await _bluetoothService.SendCommandAsync(command);
-        // return new HandState();
+
     }
+
 }
 
 

@@ -1,7 +1,7 @@
-﻿namespace RcHand.Mcp.Stdio.Server;
+﻿namespace RcHand.Core;
 public interface ISerialHandService
 {
     Task StartAsync();
     Task StopAsync();
-    Task SendCommandAsync(string command);
+    Task<HandState> SendCommandAsync(string command);
 }

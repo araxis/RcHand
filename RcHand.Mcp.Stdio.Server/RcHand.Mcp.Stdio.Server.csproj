@@ -16,5 +16,8 @@
 		<PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
 		<PackageReference Include="System.IO.Ports" Version="9.0.4" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\RcHand.Core\RcHand.Core.csproj" />
+	</ItemGroup>
 
 </Project>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RcHand.Mcp.Stdio.Server": {
+      "commandName": "Project",
+      "commandLineArgs": "--port COM8"
+    }
+  }
+}

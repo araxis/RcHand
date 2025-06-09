@@ -1,0 +1,6 @@
+@RcHand.Mcp.Http.Server_HostAddress = http://localhost:5075
+
+GET {{RcHand.Mcp.Http.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
